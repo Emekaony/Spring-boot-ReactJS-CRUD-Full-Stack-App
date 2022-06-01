@@ -40,7 +40,6 @@ public class EmployeeController {
 
     @PostMapping("/create")
     public ResponseEntity<Object> createEmployee(@RequestBody Employee employee) {
-        System.out.println("called POST");
        return service.createEmployee(employee);
     }
 
