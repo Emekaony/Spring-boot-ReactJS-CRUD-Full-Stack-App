@@ -7,6 +7,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import UpdateEmployee from "./Components/updateEmployee/UpdateEmployee";
 
 function App() {
+
+  const myname = "Emeka";
+  console.log("My name")
   return (
     <Router>
       <>
